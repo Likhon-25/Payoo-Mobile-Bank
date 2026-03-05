@@ -9,13 +9,15 @@ document.getElementById('login-btn')
         const pin = inputPin.value;
         console.log(pin);
         // 3- matvh pin & mobile number
-        if(contactNumber == "01723252475" && pin == "2524"){
+        if (contactNumber == "01723252475" && pin == "2524") {
             // 3-1 true::>> alert> homepage
             alert("Login Sucessfully")
             // window.location.replace("/home.html")
-            window.location.assign("/home.html")
+            // window.location.assign("/home.html")
+            window.location.assign("home.html")
+            // window.location.href = "../home.html";
         }
-        else{
+        else {
             // 3-2 false::>> alert> return
             alert("Login Faild");
             return
