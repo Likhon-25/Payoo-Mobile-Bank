@@ -11,10 +11,9 @@ document.getElementById('login-btn')
         // 3- matvh pin & mobile number
         if (contactNumber == "01723252475" && pin == "2524") {
             // 3-1 true::>> alert> homepage
-            alert("Login Sucessfully")
-            // window.location.replace("/home.html")
-            // window.location.assign("/home.html")
-            window.location.assign("home.html")
+            alert("Login Sucessfully");
+            // window.location.replace("/home.html");
+            window.location.assign("home.html");
             // window.location.href = "../home.html";
         }
         else {
